@@ -1,0 +1,10 @@
+<div *ngIf="explorateur">
+
+    <h2>{{explorateur.name | uppercase}} Details</h2>
+    <div><span>id: </span>{{explorateur.id}}</div>
+    <div>
+      <label for="explorateur-name">explorateur name: </label>
+      <input id="explorateur-name" [(ngModel)]="explorateur.name" placeholder="name">
+    </div>
+  
+  </div>

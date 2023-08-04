@@ -1,0 +1,71 @@
+/* explorateursComponent's private CSS styles */
+.explorateurs {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+  }
+  
+  .explorateurs li {
+    display: flex;
+  }
+  
+  .explorateurs button {
+    flex: 1;
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #9bd899;
+    margin: .5em;
+    padding: 0;
+    border-radius: 4px;
+    display: flex;
+    align-items: stretch;
+    height: 1.8em;
+  }
+
+  .explorateurs conditional-explorateur {
+    margin: .5em;
+    left: .3em;
+  }
+  
+  .explorateurs button:hover {
+    color: #2c3a41;
+    background-color: #dd8181;
+    left: .1em;
+  }
+  
+  .explorateurs button:active {
+    background-color: #525252;
+    color: #92b0b9;
+  }
+  
+  .explorateurs button.selected {
+    background-color: rgb(12, 93, 206);
+    color: rgb(169, 108, 184);
+  }
+  
+  .explorateurs button.selected:hover {
+    background-color: #505050;
+    color: white;
+  }
+  
+  .explorateurs button.selected:active {
+    background-color: black;
+    color: white;
+  }
+  
+  .explorateurs .badge {
+    display: inline-block;
+    font-size: small;
+    color: rgb(182, 228, 164);
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: #405061;
+    line-height: 1em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .explorateurs .name {
+    align-self: center;
+  }

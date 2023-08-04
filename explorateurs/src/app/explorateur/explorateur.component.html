@@ -1,0 +1,14 @@
+
+<h2>Les Explorateurs</h2>
+<ul class="explorateurs">
+  <li *ngFor="let explorateur of explorateurs">
+    <a routerLink="/detail/{{explorateur.id}}">
+      <span class="badge">{{explorateur.id}}</span> {{explorateur.name}}
+    </a>
+  </li>
+</ul>
+
+<app-explorateur-detail [explorateur]="selectedExplorateur"></app-explorateur-detail>
+
+
+

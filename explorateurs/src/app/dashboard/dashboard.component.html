@@ -1,0 +1,6 @@
+<h2>Top Explorateurs</h2>
+<div class="explorateurs-menu">
+  <a *ngFor="let explorateur of explorateurs" routerLink="/detail/{{explorateur.id}}">
+    {{explorateur.name}}
+  </a>
+</div>
