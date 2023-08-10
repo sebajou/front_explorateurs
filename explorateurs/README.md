@@ -1,6 +1,6 @@
 # Explorateurs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6. It a quickly done project, just for remind command and workflow. 
 
 ## Development server
 
